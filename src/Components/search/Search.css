@@ -1,0 +1,31 @@
+.search {
+  height: 30.5px;
+  width: 400px;
+  border: 0.4px solid rgb(49, 47, 47);
+  /* border-left: 0; */
+  padding-left: 10px;
+  /* border-top-right-radius: 10px; */
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 0;
+}
+.container {
+  margin-top: 20px;
+  text-align: start;
+  padding: 0;
+}
+button.sr {
+  all: unset;
+  height: 16px;
+  background-color: white;
+  z-index: 1;
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+  position: relative;
+  /* top: 36px; */
+  bottom: 1.5px;
+  right: 25px;
+}
+#searchForm {
+  margin-left: 0 !important;
+}

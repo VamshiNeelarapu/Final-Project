@@ -1,0 +1,15 @@
+.comp {
+  background-color: transparent;
+  border: 0.5px solid rgb(180, 179, 179);
+  padding: 6px 12px;
+  margin: 16px;
+  margin-left: 0;
+  border-radius: 10px;
+}
+.company {
+  display: flex;
+  justify-content: flex-start;
+}
+.comp:hover {
+  background-color: rgb(215, 213, 213);
+}

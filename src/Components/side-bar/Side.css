@@ -1,0 +1,20 @@
+.Cat {
+  /* margin-top: 100px; */
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  margin-top: 30px;
+}
+.sidebar-label-container {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.Cat input {
+  margin: 5px 10px;
+}
+.rad:active {
+  background-color: blue;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "Products.js",
+  "scripts": {
+    "start": "json-server --watch ProductDB.json --port=5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "react-bootstrap": "^2.10.4"
+  }
+}

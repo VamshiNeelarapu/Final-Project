@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#trend {
+  transition: transform 400ms linear;
+  height: 625px;
+  /* margin-bottom: 20px; */
+}
+#trend:hover {
+  transition-duration: 400ms;
+  transition-timing-function: linear;
+  transform: translateY(-8px);
+  border-bottom: 3px solid black;
+}
+#trend_head .h1 {
+  color: hotpink;
+}
+#trend_img {
+  height: 35px;
+  width: 35px;
+}
+#trend_head {
+  display: inline;
+}
+.MRP {
+  color: rgb(87, 82, 82);
+}
+#buttons {
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+
+  background: linear-gradient(to right, black 50%, rgb(240, 79, 106) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+#buttons:hover {
+  color: white;
+  background-position: left bottom;
+}

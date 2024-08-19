@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "976a",
+      "name": "Suhas",
+      "email": "suhas@gmail.com",
+      "password": "12345",
+      "cart": [],
+      "wishlist": []
+    }
+  ]
+}

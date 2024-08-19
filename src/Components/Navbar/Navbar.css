@@ -1,0 +1,107 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 30px 10px 10px !important;
+  margin: 0;
+  position: sticky !important;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.nav-menu li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1rem !important;
+}
+
+.nav-menu li Link {
+  text-decoration: none;
+}
+
+.nav-logo {
+  margin-right: 20px;
+}
+
+.nav-menu hr {
+  border: none;
+  width: 100%;
+  height: 3px;
+  background-color: hotpink;
+  border-radius: 10px;
+  opacity: 1 !important;
+  margin-top: 3px;
+  animation: expand 0.3s ease-out forwards;
+}
+.nav-login-cart {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.nav-login-cart button {
+  width: 120px;
+  height: 39px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(244, 124, 184);
+  transition: 0.3s;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-login-cart button:active {
+  background-color: rgb(252, 68, 160);
+  transition: 0.3s;
+}
+
+.user-context-msg {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(240, 188, 92);
+}
+
+.user-context-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-cart-count {
+  background-color: rgb(249, 97, 97);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+  margin-left: 42px;
+  font-size: 0.8rem;
+  position: relative;
+  z-index: 999;
+  color: white !important;
+}
+
+@keyframes expand {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

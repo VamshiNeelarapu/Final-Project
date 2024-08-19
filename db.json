@@ -1,0 +1,509 @@
+{
+  "popular": [
+    {
+      "id": "12",
+      "image": "./assets/12 1.jpg",
+      "title": "Men's Black T-shirt",
+      "MRP": "3999",
+      "Price": "2589",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Adidas",
+      "Description": "men,T-shirt,Adidas"
+    },
+    {
+      "id": "8",
+      "image": "./assets/8 1.jpg",
+      "title": "Red Dress",
+      "MRP": "8699",
+      "Price": "7999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "women,frock,dress,red,zara"
+    },
+    {
+      "id": "10",
+      "image": "./assets/10 1.jpg",
+      "title": "Open-back Tank Top",
+      "MRP": "6789",
+      "Price": "5899",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "women,tank top, dress,zara"
+    },
+    {
+      "id": "11",
+      "image": "./assets/11 1.jpg",
+      "title": "Men's White T-shirt",
+      "MRP": "2690",
+      "Price": "1999",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Levis",
+      "Description": "men,T-shirt,levis"
+    }
+  ],
+  "trending": [
+    {
+      "id": "14",
+      "image": "./assets/14 1.jpg",
+      "title": "Men's Peach T-shirt",
+      "MRP": "4599",
+      "Price": "3999",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Levis",
+      "Description": "men, t-shirt, Peach,Levis"
+    },
+    {
+      "id": "6",
+      "image": "./assets/6 1.jpg",
+      "title": "Color block dress",
+      "MRP": "7859",
+      "Price": "6999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "H&M",
+      "Description": "dress, women, h&m"
+    },
+    {
+      "id": "13",
+      "image": "./assets/13 1.jpg",
+      "title": "T-shirt",
+      "MRP": "4899",
+      "Price": "4599",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Adidas",
+      "Description": "men,T-shirt,Adidas"
+    },
+    {
+      "id": "7",
+      "image": "./assets/7 1.jpg",
+      "title": "Black v-neck dress",
+      "MRP": "7899",
+      "Price": "6999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "dress, women, zara"
+    }
+  ],
+  "special": [
+    {
+      "id": "1",
+      "image": "./assets/1 1.jpg",
+      "title": "Women's belted open-back denim Halter",
+      "MRP": "5490",
+      "Price": "4599",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "pink skirt, skirt, women, denim, zara"
+    },
+    {
+      "id": "15",
+      "image": "./assets/15 1.jpg",
+      "title": "Hand-Knitted Men's Shirt",
+      "MRP": "7899",
+      "Price": "5699",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Levis",
+      "Description": "men,shirt,Hand-knitted,levis"
+    },
+    {
+      "id": "2",
+      "image": "./assets/2 1.jpg",
+      "title": "Asymmetric Buttoned Denim Straight Skirt",
+      "MRP": "4290",
+      "Price": "3999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "H&M",
+      "Description": "white skirt, women, denim, H&M"
+    },
+    {
+      "id": "3",
+      "image": "./assets/3 1.jpg",
+      "title": "Jumpsuit",
+      "MRP": "5690",
+      "Price": "4999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "jumpsuit, red jumpsuit, women, zara"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "image": "./assets/1 1.jpg",
+      "title": "Women's belted open-back denim Halter",
+      "MRP": "5490",
+      "Price": "4599",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "pink skirt, skirt, women, denim, zara"
+    },
+    {
+      "id": "15",
+      "image": "./assets/15 1.jpg",
+      "title": "Hand-Knitted Men's Shirt",
+      "MRP": "7899",
+      "Price": "5699",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Levis",
+      "Description": "men,shirt,Hand-knitted,levis"
+    },
+    {
+      "id": "2",
+      "image": "./assets/2 1.jpg",
+      "title": "Asymmetric Buttoned Denim Straight Skirt",
+      "MRP": "4290",
+      "Price": "3999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "H&M",
+      "Description": "white skirt, women, denim, H&M"
+    },
+    {
+      "id": "3",
+      "image": "./assets/3 1.jpg",
+      "title": "Jumpsuit",
+      "MRP": "5690",
+      "Price": "4999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "jumpsuit, red jumpsuit, women, zara"
+    },
+    {
+      "id": "4",
+      "image": "./assets/4 1.jpg",
+      "title": "Brown bodycon dress ",
+      "MRP": "6029",
+      "Price": "5899",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "H&M",
+      "Description": "women, bodycon, H&M "
+    },
+    {
+      "id": "5",
+      "image": "./assets/5 1.jpg",
+      "title": "Blue dress",
+      "MRP": "5789",
+      "Price": "4999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "dress, women, zara"
+    },
+    {
+      "id": "14",
+      "image": "./assets/14 1.jpg",
+      "title": "Men's Peach T-shirt",
+      "MRP": "4599",
+      "Price": "3999",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Levis",
+      "Description": "men, t-shirt, Peach,Levis"
+    },
+    {
+      "id": "6",
+      "image": "./assets/6 1.jpg",
+      "title": "Color block dress",
+      "MRP": "7859",
+      "Price": "6999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "H&M",
+      "Description": "dress, women, h&m"
+    },
+    {
+      "id": "13",
+      "image": "./assets/13 1.jpg",
+      "title": "T-shirt",
+      "MRP": "4899",
+      "Price": "4599",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Adidas",
+      "Description": "men,T-shirt,Adidas"
+    },
+    {
+      "id": "7",
+      "image": "./assets/7 1.jpg",
+      "title": "Black v-neck dress",
+      "MRP": "7899",
+      "Price": "6999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "dress, women, zara"
+    },
+    {
+      "id": "12",
+      "image": "./assets/12 1.jpg",
+      "title": "Men's Black T-shirt",
+      "MRP": "3999",
+      "Price": "2589",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Adidas",
+      "Description": "men,T-shirt,Adidas"
+    },
+    {
+      "id": "8",
+      "image": "./assets/8 1.jpg",
+      "title": "Red Dress",
+      "MRP": "8699",
+      "Price": "7999",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "women,frock,dress,red,zara"
+    },
+    {
+      "id": "9",
+      "image": "./assets/9 1.jpg",
+      "title": "Openwork Knitted Top",
+      "MRP": "8799",
+      "Price": "8499",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "H&M",
+      "Description": "women,tops,white,h&m"
+    },
+    {
+      "id": "10",
+      "image": "./assets/10 1.jpg",
+      "title": "Open-back Tank Top",
+      "MRP": "6789",
+      "Price": "5899",
+      "Category": "women",
+      "quantity": 1,
+      "Company": "Zara",
+      "Description": "women,tank top, dress,zara"
+    },
+    {
+      "id": "11",
+      "image": "./assets/11 1.jpg",
+      "title": "Men's White T-shirt",
+      "MRP": "2690",
+      "Price": "1999",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Levis",
+      "Description": "men,T-shirt,levis"
+    },
+    {
+      "id": "16",
+      "image": "./assets/16 1.jpg",
+      "title": "Men's T-shirt",
+      "MRP": "4569",
+      "Price": "4299",
+      "Category": "men",
+      "quantity": 1,
+      "Company": "Adidas",
+      "Description": "men,T-shirt,adidas"
+    }
+  ],
+  "users": [
+    {
+      "id": "976a",
+      "name": "Suhas",
+      "email": "suhas@gmail.com",
+      "password": "12345",
+      "cart": [
+        {
+          "id": "1",
+          "image": "./assets/1 1.jpg",
+          "title": "Women's belted open-back denim Halter",
+          "MRP": "5490",
+          "Price": "4599",
+          "Category": "women",
+          "quantity": 1,
+          "Company": "Zara",
+          "Description": "pink skirt, skirt, women, denim, zara"
+        },
+        {
+          "id": "3",
+          "image": "./assets/3 1.jpg",
+          "title": "Jumpsuit",
+          "MRP": "5690",
+          "Price": "4999",
+          "Category": "women",
+          "quantity": 1,
+          "Company": "Zara",
+          "Description": "jumpsuit, red jumpsuit, women, zara"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "5",
+          "image": "./assets/5 1.jpg",
+          "title": "Blue dress",
+          "MRP": "5789",
+          "Price": "4999",
+          "Category": "women",
+          "quantity": 1,
+          "Company": "Zara",
+          "Description": "dress, women, zara"
+        },
+        {
+          "id": "15",
+          "image": "./assets/15 1.jpg",
+          "title": "Hand-Knitted Men's Shirt",
+          "MRP": "7899",
+          "Price": "5699",
+          "Category": "men",
+          "quantity": 1,
+          "Company": "Levis",
+          "Description": "men,shirt,Hand-knitted,levis"
+        }
+      ]
+    },
+    {
+      "id": "977b",
+      "name": "Vamshi",
+      "email": "vamshi@gmail.com",
+      "password": "1491625",
+      "cart": [
+        {
+          "id": "13",
+          "image": "./assets/13 1.jpg",
+          "title": "T-shirt",
+          "MRP": "4899",
+          "Price": "4599",
+          "Category": "men",
+          "quantity": 1,
+          "Company": "Adidas",
+          "Description": "men,T-shirt,Adidas"
+        }
+      ],
+      "wishlist": []
+    },
+    {
+      "id": "1684",
+      "name": "Suhasini",
+      "email": "suhasini@gmail.com",
+      "password": "12345",
+      "cart": [
+        {
+          "id": "13",
+          "image": "./assets/13 1.jpg",
+          "title": "T-shirt",
+          "MRP": "4899",
+          "Price": "4599",
+          "Category": "men",
+          "quantity": 1,
+          "Company": "Adidas",
+          "Description": "men,T-shirt,Adidas"
+        },
+        {
+          "id": "15",
+          "image": "./assets/15 1.jpg",
+          "title": "Hand-Knitted Men's Shirt",
+          "MRP": "7899",
+          "Price": "5699",
+          "Category": "men",
+          "quantity": 1,
+          "Company": "Levis",
+          "Description": "men,shirt,Hand-knitted,levis"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "7",
+          "image": "./assets/7 1.jpg",
+          "title": "Black v-neck dress",
+          "MRP": "7899",
+          "Price": "6999",
+          "Category": "women",
+          "quantity": 1,
+          "Company": "Zara",
+          "Description": "dress, women, zara"
+        }
+      ]
+    },
+    {
+      "id": "6694",
+      "name": "Suhasini",
+      "email": "suhasini@gmail.com",
+      "password": "12345",
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "544d",
+      "name": "Varun",
+      "email": "varun@gmail.com",
+      "password": "abcde",
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "23de",
+      "name": "Varun",
+      "email": "varun@gmail.com",
+      "password": "abcde",
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "b1e7",
+      "name": "Varun",
+      "email": "varun@gmail.com",
+      "password": "abcde",
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "707e",
+      "name": "Varun",
+      "email": "varun@gmail.com",
+      "password": "abcde",
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "651c",
+      "name": "garima",
+      "email": "garima@gmail.com",
+      "password": "12345",
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "0a5f",
+      "name": "garima",
+      "email": "garima@gmail.com",
+      "password": "12345",
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "bdcc",
+      "name": "garima",
+      "email": "garima@gmail.com",
+      "password": "12345",
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "3082",
+      "name": "garima",
+      "email": "garima@gmail.com",
+      "password": "12345",
+      "cart": [],
+      "wishlist": []
+    }
+  ]
+}

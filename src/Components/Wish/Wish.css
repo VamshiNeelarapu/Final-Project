@@ -1,0 +1,109 @@
+#wish-btn {
+  margin-right: 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+
+  color: black;
+
+  background: linear-gradient(to right, black 50%, rgb(240, 79, 106) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+#wish-btn:hover {
+  color: white;
+  background-position: left bottom;
+}
+.wishlist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+#wishcard:hover {
+  transition-duration: 700ms;
+  transition-timing-function: linear;
+  transform: translateY(-8px);
+  border-bottom: 3px solid black;
+}
+/* .title {
+  
+      font-family: 'Teko', sans-serif;
+      font-size: 4rem;
+      text-transform: uppercase;
+      animation: glow 1s ease-in-out infinite alternate;
+      text-align: center;
+  
+    } */
+/*  @keyframes glow {
+      from {
+        text-shadow: 0 0 20px #42d0e0;
+      }
+      to {
+        text-shadow: 0 0 30px #dfdc1f, 0 0 10px #e43ccb;
+      }
+    } */
+.wishtitle {
+  height: 150px;
+  width: 100vh;
+}
+.MRP {
+  color: rgb(87, 82, 82);
+}
+
+#wish-btn {
+  margin-right: 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+
+  color: black;
+
+  background: linear-gradient(to right, black 50%, rgb(240, 79, 106) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+#wish-btn:hover {
+  color: white;
+  background-position: left bottom;
+}
+.wishlist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+#wishcard:hover {
+  transition-duration: 700ms;
+  transition-timing-function: linear;
+  transform: translateY(-8px);
+  border-bottom: 3px solid black;
+}
+/* .title {
+  
+      font-family: 'Teko', sans-serif;
+      font-size: 4rem;
+      text-transform: uppercase;
+      animation: glow 1s ease-in-out infinite alternate;
+      text-align: center;
+  
+    } */
+/*  @keyframes glow {
+      from {
+        text-shadow: 0 0 20px #42d0e0;
+      }
+      to {
+        text-shadow: 0 0 30px #dfdc1f, 0 0 10px #e43ccb;
+      }
+    } */
+.wishtitle {
+  height: 150px;
+  width: 100vh;
+}
+.MRP {
+  color: rgb(87, 82, 82);
+}

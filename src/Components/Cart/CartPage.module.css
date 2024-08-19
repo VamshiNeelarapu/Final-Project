@@ -1,0 +1,125 @@
+.cartPage {
+  padding: 20px;
+}
+
+.cartTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 90px; /* Added row spacing */
+}
+
+.header {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  border-bottom: 2px solid lightgray;
+  padding: 15px;
+}
+
+.row {
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0;
+}
+
+.image {
+  width: 70px; /* Adjusted image size */
+  height: 70px; /* Adjusted image size */
+  margin: 10px;
+}
+
+.quantityButton {
+  background: none;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quantityButton:active {
+  background-color: #555; /* Medium dark gray */
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  width: 50px; /* Match heart button size */
+  height: 45px; /* Match heart button size */
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.iconButton:active {
+  background-color: #555; /* Medium dark gray */
+  transform: scale(1.1); /* Slightly enlarge */
+}
+
+.deleteIcon {
+  color: gray;
+  font-size: 24px; /* Increase size */
+}
+
+.heartButton {
+  width: 40px; /* Decreased size */
+  height: 35px; /* Decreased size */
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.5s ease;
+}
+
+.heartButton:before,
+.heartButton:after {
+  transition: background 0.5s ease;
+  position: absolute;
+  content: "";
+  left: 20px; /* Adjusted for smaller size */
+  top: 0;
+  width: 20px; /* Adjusted for smaller size */
+  height: 32px; /* Adjusted for smaller size */
+  background: dimgrey;
+  border-radius: 20px 20px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heartButton:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+.heartButton:hover:before,
+.heartButton:hover:after,
+.active.heartButton:before,
+.active.heartButton:after {
+  background: red !important;
+}
+
+.totalContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.totalLabel,
+.totalAmount {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.checkoutButton {
+  margin-top: 20px;
+  background-color: maroon;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
